@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+}
+#trocarImagem{
+    padding: 8px 16px;
+    font-size: 24px;
+    outline-color: black;
+    position: fixed;
+    top: 10px;
+    margin-left: 5%;
+}
+
+img {
+    max-width: 100%;
+    height: 90vh;
+    margin-bottom: 20px;
+    transition: opacity 1s ease;
+    opacity: 1;
+}
